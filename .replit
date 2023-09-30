@@ -24,4 +24,4 @@ start = "rust-analyzer"
 
 [deployment]
 build = ["cargo", "build", "--release"]
-run = ["./target/release/my-project"]
+run = ["./target/release/rust-the-book"]

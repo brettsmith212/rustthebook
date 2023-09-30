@@ -1,9 +1,13 @@
 [package]
-name = "projects"
+name = "rust-the-book"
 version = "0.1.0"
 authors = ["runner"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "rust-the-book"
+path = "projects/guessing_game/main.rs"
 
 [dependencies]
