@@ -11,3 +11,4 @@ name = "rust-the-book"
 path = "projects/guessing_game/main.rs"
 
 [dependencies]
+rand = "0.8.5"
