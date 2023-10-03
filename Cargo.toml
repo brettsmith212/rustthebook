@@ -8,7 +8,7 @@ edition = "2021"
 
 [[bin]]
 name = "rust-the-book"
-path = "projects/enums/main.rs"
+path = "projects/collections/main.rs"
 
 [dependencies]
 rand = "0.8.5"
