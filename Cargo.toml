@@ -8,7 +8,7 @@ edition = "2021"
 
 [[bin]]
 name = "rust-the-book"
-path = "projects/error_handling/main.rs"
+path = "projects/generics/main.rs"
 
 [dependencies]
 rand = "0.8.5"
