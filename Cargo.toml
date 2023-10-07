@@ -10,5 +10,9 @@ edition = "2021"
 name = "rust-the-book"
 path = "projects/generics/main.rs"
 
+[lib]
+path = "projects/generics/lib.rs"
+
 [dependencies]
 rand = "0.8.5"
+aggregator = "0.1.0"

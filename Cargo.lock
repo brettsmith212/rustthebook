@@ -3,6 +3,12 @@
 version = 3
 
 [[package]]
+name = "aggregator"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a7ca33746c501dbab6aa04082df32f56b89b2e11103241dde17ba0f769146fd0"
+
+[[package]]
 name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -65,6 +71,7 @@ dependencies = [
 name = "rust-the-book"
 version = "0.1.0"
 dependencies = [
+ "aggregator",
  "rand",
 ]
 
