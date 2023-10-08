@@ -8,10 +8,7 @@ edition = "2021"
 
 [[bin]]
 name = "rust-the-book"
-path = "projects/generics/main.rs"
-
-[lib]
-path = "projects/generics/lib.rs"
+path = "projects/minigrep/main.rs"
 
 [dependencies]
 rand = "0.8.5"
